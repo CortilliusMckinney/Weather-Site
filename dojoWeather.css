@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: #97CBEC;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.city {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 90px;
+    margin-bottom: -40px;
+    position: fixed;
+}
+
+.middleDiv {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: black;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    margin-top: 70px;
+    margin-left: 90px;
+    width: 640px;
+    padding-bottom: 20px;
+}
+
+.today {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.today>img {
+    width: 90px;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.today>h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.today>h5 {
+    text-align: center;
+}
+
+.temp1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#span1 {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span1:after {
+    content: "°";
+    color: red;
+}
+
+#span2 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span2:after {
+    content: "°";
+    color: blue;
+}
+
+.tomorrow {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 120px;
+}
+
+.tomorrow>img {
+    width: 90px;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tomorrow>h3 {
+    margin-top: 10px;
+    text-align: center;
+    /* margin-top: 10px;
+    margin-left: 20px; */
+}
+
+.tomorrow>h5 {
+    text-align: center;
+}
+
+
+.temp2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#span3 {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span3:after {
+    content: "°";
+    color: red;
+}
+
+#span4 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span4:after {
+    content: "°";
+    color: blue;
+}
+
+.friday {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 120px;
+}
+
+.friday>img {
+    width: 90px;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.friday>h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.friday>h5 {
+    text-align: center;
+}
+
+.temp3 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#span5 {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span5:after {
+    content: "°";
+    color: red;
+}
+
+#span6 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span6:after {
+    content: "°";
+    color: blue;
+}
+
+.saturday {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 120px;
+}
+
+.saturday>img {
+    width: 90px;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.saturday>h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.saturday>h5 {
+    text-align: center;
+}
+
+.temp4 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#span7 {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span7:after {
+    content: "°";
+    color: red;
+}
+
+#span8 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span8:after {
+    content: "°";
+    color: blue;
+}
+
+.bottomDiv {
+    background-color: rgb(235, 235, 235);
+    border-color: black;
+    border-style: solid;
+    border-width: 2.5px;
+    margin-top: -15px;
+    margin-left: 120px;
+    width: 575px;
+    height: 120px;
+    position: fixed;
+}
+
+.bottomDiv>img {
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.bottomDiv>p {
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+u {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+#acceptButton {
+    margin-left: 490px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 25px;
+    box-shadow: 4px 4px 0px;
+    background-color: #97CBEC;
+}
+
+.dropbtn {
+    background-color: #97CBEC;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: solid;
+    cursor: pointer;
+    position: relative;
+}
+
+.button {
+    background-color: #97CBEC;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+}
+
+.dropdown {
+    /* position: relative; */
+    display: inline-block;
+    margin-right: -20px;
+    margin-top: 0px;
+    position: fixed;
+    display: flex;
+
+}
+
+.dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: wheat;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #97CBEC
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #97CBEC;
+}
+
+.buttonText {
+    margin-left: 500px;
+}

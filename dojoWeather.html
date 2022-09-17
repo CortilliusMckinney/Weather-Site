@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojoWeather.css">
+    <title>Document</title>
+</head>
+
+    <body>
+        <div class="MainContainer">
+            <div class="head">
+                <h1>DojoWeather</h1>
+                <a id="burbank" onclick="weatherAlert()" href="#">Burbank</a>
+                <a id="chicago" onclick="weatherAlert()" href="#">Chicago</a>
+                <a id="dallas"  onclick="weatherAlert()"  href="#">Dallas</a>
+            
+            </div>
+            <h2 class="city">San Jose</h2>
+            
+            <div class="dropdown">
+                <p class="buttonText">Show temperature in</p>
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <a id="celsius" onclick="celsiusCovert()" href="#">Celsius</a>
+                    <a id="farenheit"  onclick="celsiusCovert2()" href="#">Fahrenheit</a>
+                </div>
+            </div>
+
+             <div>      
+                <div class="middleDiv">
+                    <div class="today">
+                        <h3>Today</h3>
+                        <img src="assets/some_rain.png" alt="cloud">
+                        <h5>some rain</h5>
+                        <div class="temp1">
+                            <span id="span1">27</span>
+                            <span id="span2">18</span>
+                        </div>
+                    </div>
+                    <div class="tomorrow">
+                        <h3>Tomorrow</h3>
+                        <img src="assets/some_sun.png" alt="cloud">
+                        <h5>some sun</h5>
+                        <div class="temp2">
+                            <span id="span3">40</span>
+                            <span id="span4">19</span>
+                        </div>
+                    </div>
+                    <div class="friday">
+                        <h3>Friday</h3>
+                        <img src="assets/some_clouds.png" alt="cloud">
+                        <h5>some clouds</h5>
+                        <div class="temp3">
+                            <span id="span5">21</span>
+                            <span id="span6">16</span>
+                        </div>
+                    </div>
+                    <div class="saturday">
+                        <h3>Saturday</h3>
+                        <img src="assets/some_sun.png" alt="cloud">
+                        <h5>some sun</h5>
+                        <div class="temp4">
+                            <span id="span7">26</span>
+                            <span id="span8">21</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="bottomDiv"  >
+                <img src="assets/cookie.png" alt="cloud">  
+                <button id="acceptButton" onclick="cookieRemoval()">I Accept</button> 
+                <p><b>Stop! Cookie time</b><br>
+                    We use cookie(sadly not the edible ones) to personalize
+                   <br>content and ads, to provide social media features and to 
+                    <br>analyse our traffic.<u>Read more...</u>
+                 </p> 
+            </div>
+            </div>
+        <script src="dojoWeather.js"></script>
+    </body>
+</html>
